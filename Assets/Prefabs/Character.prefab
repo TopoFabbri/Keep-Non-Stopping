@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 584397050162935299}
   - component: {fileID: 3052395173069268137}
   - component: {fileID: 4399075838951087847}
-  - component: {fileID: 6373543894317194156}
   - component: {fileID: 2141302004575158884}
   - component: {fileID: 4088130651450484266}
   m_Layer: 0
@@ -110,50 +109,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &6373543894317194156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2706288237440942125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 621567455fd1c4ceb811cc8a00b6a1a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_NotificationBehavior: 0
-  m_MaxPlayerCount: -1
-  m_AllowJoining: 1
-  m_JoinBehavior: 0
-  m_PlayerJoinedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_PlayerLeftEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_JoinAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: 
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: d459d2f3-b521-4ba6-8109-c84139547360
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  m_PlayerPrefab: {fileID: 0}
-  m_SplitScreen: 0
-  m_MaintainAspectRatioInSplitScreen: 0
-  m_FixedNumberOfSplitScreens: -1
-  m_SplitScreenRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
 --- !u!114 &2141302004575158884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -410,8 +365,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.05, y: 0.15, z: 0.08}
-  m_Center: {x: 0.02, y: 0, z: 0}
+  m_Size: {x: 0.034330532, y: 0.15, z: 0.047887925}
+  m_Center: {x: 0.017536191, y: 0, z: 0.0029476075}
 --- !u!1001 &2771076870703864808
 PrefabInstance:
   m_ObjectHideFlags: 0

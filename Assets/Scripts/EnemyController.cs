@@ -19,7 +19,7 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        if (transform.position.z < -5f)
+        if (transform.position.z < -10f)
             Destroy(gameObject);
     }
 

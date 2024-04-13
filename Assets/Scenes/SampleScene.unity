@@ -498,10 +498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81238b05f7b116849953597c7c26e764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: 1.87, z: -2.71}
-  target: {fileID: 1748480095}
-  lerpSpeed: 0.05
-  lookAtOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &1200309450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,6 +604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  maxMove: {x: 4, y: 2}
 --- !u!114 &1748480097
 MonoBehaviour:
   m_ObjectHideFlags: 0

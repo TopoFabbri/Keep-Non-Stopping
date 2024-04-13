@@ -4,6 +4,7 @@ using UnityEngine;
 public class Hud : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI timeText;
+    [SerializeField] private TextMeshProUGUI bestTimeText;
     
     private void Start()
     {
@@ -13,5 +14,6 @@ public class Hud : MonoBehaviour
     private void Update()
     {
         timeText.text = Timer.GetTime.ToString("F2");
+        bestTimeText.text = Score.bestTime.ToString("F2");
     }
 }

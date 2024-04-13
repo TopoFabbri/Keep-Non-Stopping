@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -36,4 +35,9 @@ public class GameManager : MonoBehaviour
         
         Timer.Reset();
     }
+}
+
+public class Score
+{
+    public static float bestTime = 0f;
 }

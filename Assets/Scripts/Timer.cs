@@ -14,6 +14,9 @@
 
     public static void Reset()
     {
+        if (Instance.time > Score.bestTime || Score.bestTime == 0f)
+            Score.bestTime = Instance.time;
+        
         Instance.time = 0f;
     }
 }

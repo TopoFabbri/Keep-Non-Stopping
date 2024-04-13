@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -22,5 +24,11 @@ public class PlayerController : MonoBehaviour
     public void OnMove(InputValue value)
     {
         direction = value.Get<Vector2>();
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

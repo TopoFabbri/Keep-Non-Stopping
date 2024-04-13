@@ -64,8 +64,8 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
+  m_Constraints: 126
+  m_CollisionDetection: 1
 --- !u!114 &3052395173069268137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  maxMove: {x: 4, y: 2}
+  maxMove: {x: 6, y: 2}
 --- !u!114 &4399075838951087847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,4 +408,4 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.05, y: 0.15, z: 0.08}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0.02, y: 0, z: 0}

@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject prefabToSpawn;
-    public float spawnInterval = 1f;
-    public Transform spawnPointA;
-    public Transform spawnPointB;
+    [SerializeField] private GameObject prefabToSpawn;
+    [SerializeField] private float spawnInterval = 1f;
+    [SerializeField] private Transform spawnPointA;
+    [SerializeField] private Transform spawnPointB;
 
     private float timer;
 

@@ -25,6 +25,6 @@ public class EnemyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector3(0f, 0f, -speed);
+        rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y, -speed);
     }
 }
